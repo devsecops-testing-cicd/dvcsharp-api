@@ -2,7 +2,7 @@ FROM cgr.dev/chainguard/dotnet-sdk:latest-dev
 
 ENV ASPNETCORE_URLS=http://0.0.0.0:5000
 
-COPY . /app
+COPY --chown=nonroot:nonroot . /app
 
 WORKDIR /app
 
