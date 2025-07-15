@@ -1,5 +1,4 @@
-FROM microsoft/dotnet
-LABEL MAINTAINER "Appsecco"
+FROM cgr.dev/chainguard/dotnet-runtime
 
 ENV ASPNETCORE_URLS=http://0.0.0.0:5000
 
