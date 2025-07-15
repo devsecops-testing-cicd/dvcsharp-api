@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard/dotnet-runtime
+FROM cgr.dev/chainguard/dotnet-sdk:latest
 
 ENV ASPNETCORE_URLS=http://0.0.0.0:5000
 
